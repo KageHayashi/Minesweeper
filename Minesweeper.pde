@@ -47,10 +47,10 @@ public boolean isWon() {
   return false;
 }
 public void displayLosingMessage() {
-  text("You are a Loser",width/2,height/2);
+  
 }
 public void displayWinningMessage() {
-  text("You win",width/2,height/2);
+  
 }
 
 public class MSButton {
