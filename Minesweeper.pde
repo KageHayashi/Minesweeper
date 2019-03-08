@@ -26,7 +26,6 @@ public void setBombs() {
     int c = (int)(Math.random()*NUM_COLS);
     if(!bombs.contains(buttons[r][c])) {
       bombs.add(buttons[r][c]);
-      System.out.println(r + ", " + c);
     }
   }
 }
