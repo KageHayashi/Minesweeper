@@ -7,7 +7,7 @@ private MSButton[][] buttons; //2d array of minesweeper buttons
 private ArrayList <MSButton> bombs = new ArrayList <MSButton>(); //ArrayList of just the minesweeper buttons that are mined
 
 void setup () {
-  size(400, 400);
+  size(1080, 720);
   textAlign(CENTER, CENTER);
 
   // make the manager
