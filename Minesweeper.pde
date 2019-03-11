@@ -1,13 +1,13 @@
 import de.bezier.guido.*;
 
-public final static int NUM_ROWS = 100;
-public final static int NUM_COLS = 100;
-public final static int NUM_BOMBS = 50;
+public final static int NUM_ROWS = 50;
+public final static int NUM_COLS = 50;
+public final static int NUM_BOMBS = 500;
 private MSButton[][] buttons; //2d array of minesweeper buttons
 private ArrayList <MSButton> bombs = new ArrayList <MSButton>(); //ArrayList of just the minesweeper buttons that are mined
 
 void setup () {
-  size(1080, 720);
+  size(800, 800);
   textAlign(CENTER, CENTER);
 
   // make the manager
@@ -59,8 +59,8 @@ public class MSButton {
   private String label;
 
   public MSButton ( int rr, int cc ) {
-    width = 400/NUM_COLS;
-    height = 400/NUM_ROWS;
+    width = 800/NUM_COLS;
+    height = 800/NUM_ROWS;
     r = rr;
     c = cc; 
     x = c*width;
